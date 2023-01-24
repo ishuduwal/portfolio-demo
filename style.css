@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    background-image: url(background.jpg);
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    position: fixed;
+    top: 0%;
+    background-color:rgba(14,14,14, 255);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+}
+nav ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+nav ul li a:hover{
+    color: #3dcfd3;
+    transition: 0.5s;
+}
+.introduction{
+    padding-top: 200px;
+    align-items: center;
+    margin: 90px;
+}
+h3{
+    font-size: 25px;
+}
+span{
+    color: #3dcfd3;
+    font-size: 55px;
+}
+p{
+    font-size: 25px;
+}
+.button{
+    font-weight: bold;
+    height: 40px;
+    width:100px;
+    color: #000;
+    border-radius: 12px;
+    border: none;
+    background:#fff;
+    transition: 0.5s;
+    text-decoration: none;
+    font-weight: bold;
+}
+.button:hover{
+     color: #fff;
+    background: transparent;
+    border: 1px solid #3dcfd3;
+}
+.about{
+    width:100%;
+    height: 100vh;
+    padding: 90px 0px;
+    background: rgba(14,14,14, 255);
+}
+.pic{
+    height: auto;
+    width: 400px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text{
+    width: 600px;
+}
+h2{
+    font-size: 60px;
+}
+h5{
+    font-size: 20px;
+    color: #3dcfd3;
+}
+p{
+    font-size: 18px;
+}
+.hire{
+    font-weight: bold;
+    height: 40px;
+    width:100px;
+    color: #000;
+    border-radius: 12px;
+    border: none;
+    background:#3dcfd3;
+    transition: 0.5s;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hire:hover{
+     color: #fff;
+    background: transparent;
+    border: 1px solid #3dcfd3;
+
+}
+.center{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.project{
+    width: 100%;
+    height: 100vh;
+    background:rgba(14,14,14, 255);
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+.one{
+    border: 1px solid #3dcfd3;
+    padding: 15px;
+}
+.one:hover{
+   transform: translateY(5px);
+}
+.two{
+    border: 1px solid #3dcfd3;
+    padding: 15px;
+}
+.two:hover{
+    transform: translateY(5px);
+}
+.three{
+    border: 1px solid #3dcfd3;
+    padding: 15px;
+}
+.three:hover{
+    transform: translateY(5px);
+}
+.visit{
+    font-weight: bold;
+    height: 40px;
+    width:100%;
+    color: #000;
+    border-radius: 12px;
+    border: none;
+    background:#3dcfd3;
+    transition: 0.5s;
+    text-decoration: none;
+    font-weight: bold;
+}
+.visit:hover{
+     color: #fff;
+    background: transparent;
+    border: 1px solid #3dcfd3;
+}
+.contact{
+    width: 100%;
+    height: 70vh;
+    background:rgba(14,14,14, 255);
+}
+h6{
+    text-align: center;
+    font-size: 50px;
+}
+h4{
+    font-size: 35px;
+}
+.me{
+    font: 25px;
+    color: #3dcfd3;
+    font-weight: bold;
+}
+.social{
+    padding-left: 50px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.social .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    color: #000;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.box{
+    width:400px;
+    background-color: #fff;
+}
+form{
+    margin: 25px;
+}
+.aa{
+    color: #3dcfd3;
+    text-align: center;
+    font-size: 25px;
+}
+.input-field{
+    color: #000;
+    width:300px;
+    height: 25px;
+    margin-top: 15px;
+    padding-left: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    outline: none;
+}
+.textarea-field{
+    height: 50px;
+    padding-top: 10px;
+}
+.send{
+    font-weight: bold;
+    height: 40px;
+    width:100px;
+    color: #000;
+    border-radius: 12px;
+    border: none;
+    background:#3dcfd3;
+    transition: 0.5s;
+    text-decoration: none;
+    font-weight: bold;
+}
+.send:hover{
+    background: transparent;
+    border: 1px solid #3dcfd3;
+}
